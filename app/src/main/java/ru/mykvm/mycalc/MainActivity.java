@@ -215,6 +215,7 @@ public class MainActivity extends AppCompatActivity {
             finishResult = String.valueOf(calc.getResult(n1,n2,operation));
             result.setText(finishResult);
             calculateSave = calculation.getText().toString();
+            //почему-то нет пробле с сохранением состояния допустим того же Edit Text, а вот сохранить TextView почему-то не удается... Текущий код вылетает(
 
         }
 
