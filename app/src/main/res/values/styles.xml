@@ -1,3 +1,4 @@
+<!-- пока так и не разобрался как использовать материал компоненты в чистом виде, поэтому наследовался от них в стилях -->
 <resources>
 <!-- Base application theme. -->
 <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
