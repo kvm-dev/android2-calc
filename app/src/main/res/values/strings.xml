@@ -18,4 +18,5 @@
     <string name="f6">/</string>
     <string name="f7">%</string>
     <string name="result">Результат</string>
+    <string name="numberHint">Введите значение</string>
 </resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">14sp</dimen>
+    <dimen name="number_size">65dp</dimen>
+    <dimen name="margin_top1">16dp</dimen>
+    <dimen name="margin_top2">4dp</dimen>
+    <dimen name="margin_top3">8dp</dimen>
+    <dimen name="bias">8dp</dimen>
+    <dimen name="result_margin">28dp</dimen>
+    <dimen name="result_bias">0.502</dimen>
+    <dimen name="number_width">198dp</dimen>
+    <dimen name="numbers_height">53dp</dimen>
+    <dimen name="numbers_margin_top">31dp</dimen>
+    <dimen name="numbers_ems">10</dimen>
+    <dimen name="numbers_bias">0.507</dimen>
+</resources>

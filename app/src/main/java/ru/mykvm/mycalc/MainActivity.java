@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity {
     String multiplicationFunc = "multiplication";
     String divisionFunc = "division";
     String operation = null;
-    String finishResult;
-
-    String calculateSave;
 
     private TextView result;
     private EditText calculation;
@@ -40,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         initView();
     }
 
@@ -182,9 +177,8 @@ public class MainActivity extends AppCompatActivity {
                 calculation.setText("");
                 if(n1!=0 && n2!=0)
                 {
-                    finishResult = String.valueOf(calc.getResult(n1,n2,operation));
-                    result.setText(finishResult);
-                    calculateSave = calculation.getText().toString();
+                    calc.gainResult(n1,n2,operation);
+                    result.setText(String.valueOf(calc.getResult()));
 
                 }
 
@@ -208,16 +202,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        initView();
         calc = (Calculate) savedInstanceState.getSerializable("CALC");
-        if(n1!=0 && n2!=0)
-        {
-            finishResult = String.valueOf(calc.getResult(n1,n2,operation));
-            result.setText(finishResult);
-            calculateSave = calculation.getText().toString();
-
-        }
-
+        result.setText(String.valueOf(calc.getResult()));
 
     }
 
@@ -226,7 +212,4 @@ public class MainActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         outState.putSerializable("CALC", calc);
     }
-
-
-
 }

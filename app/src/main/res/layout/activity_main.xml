@@ -7,217 +7,186 @@
     android:background="@drawable/bg"
     tools:context=".MainActivity">
 
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number1"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top1"
         android:text="@string/n1"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/number2"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numbers" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number3"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top1"
         android:text="@string/n3"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/number2"
         app:layout_constraintTop_toBottomOf="@+id/numbers" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number2"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top1"
         android:text="@string/n2"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/number3"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/number1"
         app:layout_constraintTop_toBottomOf="@+id/numbers" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number4"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="4dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top2"
         android:text="@string/n4"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/number5"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/number1" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number6"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="4dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top2"
         android:text="@string/n6"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/number5"
         app:layout_constraintTop_toBottomOf="@+id/number3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number5"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="4dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top2"
         android:text="@string/n5"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/number6"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/number4"
         app:layout_constraintTop_toBottomOf="@+id/number2" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonNumber"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number7"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/n7"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/number8"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/number4" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleButtonZero"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number10"
-        android:layout_width="195dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/n0"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/number8" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/f3"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/f3"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/f2"
         app:layout_constraintTop_toBottomOf="@+id/number10" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/f4"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/f4"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/f5"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/f1" />
-
-    <Button
+z
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/f5"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/f5"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/f6"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/f4"
         app:layout_constraintTop_toBottomOf="@+id/f2" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/f6"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/f6"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/f5"
         app:layout_constraintTop_toBottomOf="@+id/f3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/f1"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/f1"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/f2"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/number10" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/f2"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/f2"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/f3"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/f1"
         app:layout_constraintTop_toBottomOf="@+id/number10" />
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number8"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/n8"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/number9"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/number7"
         app:layout_constraintTop_toBottomOf="@+id/number5" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/MyCustomCalcStyleFuncButtons"
+        android:textSize="@dimen/textsize"
         android:id="@+id/number9"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_purple"
+        android:layout_marginTop="@dimen/margin_top3"
         android:text="@string/n9"
-        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="@dimen/bias"
         app:layout_constraintStart_toEndOf="@+id/number8"
         app:layout_constraintTop_toBottomOf="@+id/number6" />
 
@@ -225,22 +194,24 @@
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="@dimen/result_margin"
         android:text="@string/result"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="@dimen/result_bias"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/numbers"
-        android:layout_width="198dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="31dp"
-        android:ems="10"
+        android:layout_width="@dimen/number_width"
+        android:layout_height="@dimen/numbers_height"
+        android:layout_marginTop="@dimen/numbers_margin_top"
+        android:autofillHints=""
+        android:ems="@dimen/numbers_ems"
+        android:hint="@string/numberHint"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="@dimen/numbers_bias"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/result" />
 
