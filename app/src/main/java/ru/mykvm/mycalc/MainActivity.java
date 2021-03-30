@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                Intent myIntent = new Intent(MainActivity.this.getApplicationContext(), SettingsActivity.class);
                  MainActivity.this.startActivity(myIntent);
                  finish();
+                 //почему-то срабатывает только один раз, мы переключаемся на активность настроек, передаем из настроек выбранную тему, все применяется, а вот во второй раз уже не вызывается интент...Если видите почему, пожалуйста, сообщите, буду очень признателен.
              }
          });
          button1.setOnClickListener(new View.OnClickListener() {
