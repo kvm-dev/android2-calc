@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="textsize">14sp</dimen>
+    <dimen name="text_size_horizontal">5sp</dimen>
     <dimen name="number_size">65dp</dimen>
+    <dimen name="number_size_horizontal">36dp</dimen>
     <dimen name="margin_top1">16dp</dimen>
     <dimen name="margin_top2">4dp</dimen>
     <dimen name="margin_top3">8dp</dimen>
@@ -13,4 +15,5 @@
     <dimen name="numbers_margin_top">31dp</dimen>
     <dimen name="numbers_ems">10</dimen>
     <dimen name="numbers_bias">0.507</dimen>
+    <dimen name="size_horizontal_refresh">180dp</dimen>
 </resources>

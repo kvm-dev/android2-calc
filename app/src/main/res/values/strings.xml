@@ -1,22 +1,24 @@
 <resources>
     <string name="app_name">My Calc</string>
-    <string name="n1">1</string>
-    <string name="n2">2</string>
-    <string name="n3">3</string>
-    <string name="n4">4</string>
-    <string name="n5">5</string>
-    <string name="n6">6</string>
-    <string name="n7">7</string>
-    <string name="n8">8</string>
-    <string name="n9">9</string>
-    <string name="n0">0</string>
-    <string name="f1">C</string>
-    <string name="f2">=</string>
-    <string name="f3">+</string>
-    <string name="f4">-</string>
-    <string name="f5">X</string>
-    <string name="f6">/</string>
-    <string name="f7">%</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="number0">0</string>
+    <string name="refresh">C</string>
+    <string name="equally">=</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="multiplication">X</string>
+    <string name="division">/</string>
     <string name="result">Результат</string>
-    <string name="numberHint">Введите значение</string>
+    <string name="put_value">Введите значение</string>
+    <string name="label_for_radio">Выберите тему</string>
+    <string name="stand_theme">Стандартная тема</string>
+    <string name="alter_theme">Альтернативная тема</string>
 </resources>
